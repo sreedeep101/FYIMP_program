@@ -11,11 +11,14 @@ int main()
                         scanf("%d",&arry1[i]);
         }
         printf("enter elements in the arry2\n");
-        for(i=0;i<size;i++){                                                                                    printf("enter element%d\n",i+1);                                                          scanf("%d",&arry2[i]);
+        for(i=0;i<size;i++){                    
+                printf("enter element%d\n",i+1);                                                          
+                scanf("%d",&arry2[i]);
         }
         printf("the arry1 is \n");
         for(i=0;i<size;i++){
-                  printf("%d\t",arry1[i]);                                                      }
+                  printf("%d\t",arry1[i]);                                                     
+        }
         printf("\nthe arry2 is \n");
         for(i=0;i<size;i++){
                   printf("%d\t",arry2[i]);
@@ -23,7 +26,7 @@ int main()
         printf("\nthe added arry is \n");
 for(i=0;i<size;i++){
         add[i]=arry1[i]+arry2[i];
-printf("%d\t",add[i]);}
-printf("\n");
+printf("%d\t",add[i]);
+}
 
 }
